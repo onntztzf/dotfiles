@@ -6,7 +6,7 @@ These are my personal **dotfiles** used to manage and share my terminal and tool
 
 ### Shell
 
-- [Fish](https://fishshell.com/): Fish is a smart and user-friendly command line shell for Linux, macOS, and the rest of the family. Autosuggestions. The configuration file is in [fish](./config/fish)[fish](./config/fish).
+- [Fish](https://fishshell.com/): Fish is a smart and user-friendly command line shell for Linux, macOS, and the rest of the family. Autosuggestions. The configuration file is in [fish](./config/fish).
 
 ### Terminal
 
