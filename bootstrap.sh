@@ -201,4 +201,10 @@ if [ "$SHELL" != "$(command -v fish)" ]; then
     exec "$(command -v fish)"
 fi
 
+# Set additional environment variables as needed
+if command -v go &> /dev/null; then
+    go env -w GO111MODULE=on
+    go env -w GOPROXY=https://goproxy.cn,direct
+fi
+
 echo "Installation and setup complete..."
